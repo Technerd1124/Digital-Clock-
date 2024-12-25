@@ -30,16 +30,21 @@ body{
      backdrop-filter: blur(5px);
  }
 
-#Time{ 
+ #Time{ 
      position: absolute;
      font-weight: bold;
+     width: 100%;
      font-family: monospace;
-     font-size: 14vh;
+     font-size: 13vh;
+     border: 1px solid;
+     text-align: center;
 }
-   
 
-@media only screen and (max-width: 600px) {
-     #Time {
-          font-size: 10vh;
-     }
-   }
+     
+
+     @media only screen and (max-width: 600px) {
+          #Time {
+               font-size: 4vh;
+
+          }
+        }
