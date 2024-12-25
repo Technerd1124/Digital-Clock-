@@ -36,3 +36,10 @@ body{
      font-family: monospace;
      font-size: 14vh;
 }
+   
+
+@media only screen and (max-width: 600px) {
+     #Time {
+          font-size: 10vh;
+     }
+   }
